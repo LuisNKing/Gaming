@@ -1,0 +1,54 @@
+<HTML>
+	<HEAD>
+		<TITLE>Form_Text_Type</TITLE>
+		<link rel="stylesheet" type="text/css" href="FormsV2.css">
+		<ul>
+  			<li><a class="#" href="#home">Home</a></li>
+  			<li><a href="#news">News</a></li>
+  			<li class="dropdown">
+    			<a href="javascript:void(0)" class="dropbtn">Galleries</a>
+    			<div class="dropdown-content">
+      				<a href="Galleries.html">Gaming</a>
+      				<a href="#">Sports</a>
+      				<a href="Shoes.html">Shoes</a>
+	  			<li><a href="#contact">Contact</a></li>
+    			</div>
+  			</li>
+		</ul>
+	</head>	 
+	
+ 	<BODY bgcolor=gold>
+      		<h1> <font color=blue>Please enter the following bioData</font></h1>
+       			<FORM name="fome3"  Action="url"  method="get">
+	  			<font color=red> Fill your details: </font><BR>
+         		  	First Name: <INPUT TYPE="TEXT" NAME="FName" SIZE="15" MAXLENGTH="25"><BR><BR>
+       			  	Last Name: <INPUT TYPE="TEXT" NAME="LName" SIZE="15" MAXLENGTH="25"><BR><BR>
+           			Nationality: <INPUT TYPE="TEXT" NAME="Country" SIZE="25" MAXLENGTH="25"><BR><BR>
+           			The Phone Number: <INPUT TYPE="TEXT" NAME="Phone"SIZE="15" MAXLENGTH="12"><BR><BR>
+		   		Email Address:<INPUT TYPE="TEXT" NAME="Email"SIZE="15" MAXLENGTH="35"><BR><BR>
+		   		<font color=blue>Select Language:</font><BR>
+		   		Portugal:<INPUT TYPE="Radio" Name="country"  CHECKED><BR>
+           			England<INPUT TYPE="Radio"  Name="country"><BR>
+           			France:<INPUT TYPE="Radio" Name="country"><BR> <BR>
+		   		<font color=blue>Select Language:</font><BR>
+           			Portuguese:<INPUT TYPE="Radio" Name="language"  CHECKED><BR> 
+		   		English:<INPUT TYPE="Radio" Name="language"><BR>
+           			French:<INPUT TYPE="Radio" Name="language">
+				
+		   		<h2><font color=blue>What type of Computer do you have?</font><h2>
+		   		<SELECT NAME="ComputerType" size=5   multiple>
+	          		<OPTION  value="IBM" > IBM</OPTION>
+ 	          		<OPTION  value="INTEL"> INTEL</OPTION>
+	          		<OPTION value=" Apple"> Apple</OPTION>
+				<OPTION value="Compaq" SELECTED> Compaq</OPTION></SELECT>
+	          		<OPTION value=" other"> Other</OPTION>
+           
+				<h3><font color=red> Any more details: </font><BR><TEXTAREA   COLS=40  ROWS=20  Name="comments">
+        			</TEXTAREA>: 
+          			<h3><FONT Color = red></h1>
+               			<STRONG><font size=5>Press Here to submit the data:</font></STRONG><BR>
+               			<INPUT TYPE="submit" VALUE="SubmitData">
+               			<INPUT TYPE="RESET" VALUE="Reset">
+		      </FORM> 
+	</BODY> 
+</HTML>
